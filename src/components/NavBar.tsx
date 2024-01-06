@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
-import { ListItemButton, List, ListItemIcon, ListItemText, IconButton, Drawer, Grid } from '@mui/material';
+import { ListItemButton, List, ListItemIcon, ListItemText, IconButton, Drawer } from '@mui/material';
 import { Home, EmojiPeople, Laptop, Psychology } from '@mui/icons-material';
 import Box from '@mui/material/Box';
 import AppBar from '@mui/material/AppBar';
 import CssBaseline from '@mui/material/CssBaseline';
 import Toolbar from '@mui/material/Toolbar';
-import Divider from '@mui/material/Divider';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
@@ -19,7 +18,7 @@ function NavBar() {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
+      <AppBar position="fixed" color="default" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
         <Toolbar style={{
           display: 'flex',
           width: '100%'}}>
@@ -78,7 +77,6 @@ function NavBar() {
               </ListItemIcon>
             </ListItemButton>
           </List>
-          <Divider />
         </Box>
       </Drawer>
     </Box>
