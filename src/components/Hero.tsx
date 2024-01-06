@@ -17,8 +17,9 @@ function Hero() {
     <Container maxWidth="lg">
     
     <Typography variant="h4" mt={2}>Ciao! My name is</Typography>
-        <Typography variant="h1">Kim Robinson</Typography>
+        <Typography variant="h1" component="h1">Kim Robinson</Typography>
         <Typography variant="h5">full-stack developer | software adventurer | forager</Typography>
+        <hr />
         <Typography variant="h5">Javascript | React | Html | CSS | BootstraTypography | MUI | Git</Typography>
         <Typography variant="h6">Learning: C# | .net</Typography>
       

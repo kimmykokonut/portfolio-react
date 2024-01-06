@@ -21,7 +21,8 @@ function NavBar() {
       <AppBar position="fixed" color="default" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
         <Toolbar style={{
           display: 'flex',
-          width: '100%'}}>
+          width: '100%'
+        }}>
           <IconButton aria-label="https://github.com/kimmykokonut/" onClick={() => window.open('https://github.com/kimmykokonut/')}>
             <GitHubIcon fontSize="large" />
           </IconButton>

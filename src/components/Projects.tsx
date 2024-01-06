@@ -5,7 +5,6 @@ import { Card, CardActions, CardContent, CardMedia, Typography, IconButton } fro
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Projects() {
-  
   return (
     <div>
         <Typography variant="h2">Projects</Typography>
@@ -25,7 +24,6 @@ function Projects() {
             <GitHubIcon fontSize="large" />
           </IconButton>
           <Typography variant='h6'> React | Typescript | Material UI | Vite</Typography>
-      {/* <a href="https://github.com/kimmykokonut/national-park-api">Github Link</a> */}
         </CardActions>
         </Card>
 
@@ -45,7 +43,6 @@ function Projects() {
           <Typography variant='h6'> React | Javascript | Bootstrap | Redux</Typography>
         </CardActions>
       </Card>
-
 
       <Card variant="outlined" sx={{ maxWidth: '100vw', m: '1rem', height: 'auto' }}>
         <CardContent>
