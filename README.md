@@ -52,5 +52,4 @@ _I'm not sure why you'd want to setup/install this as it is my portfolio using R
 MIT License. See license.md for further information
 
 * notes to self:
--learn datagrid for skills component
--fix the img in the projects comp to fit box
+- struggling with getting main content to 'stick' to the drawer/appBar

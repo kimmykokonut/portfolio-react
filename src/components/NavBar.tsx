@@ -18,7 +18,8 @@ function NavBar() {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar position="fixed" color="default" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
+      <AppBar position="fixed" color="default"
+        sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
         <Toolbar style={{
           display: 'flex',
           width: '100%'
@@ -46,8 +47,7 @@ function NavBar() {
           width: drawerWidth,
           flexShrink: 0,
           [`& .MuiDrawer-paper`]: { width: drawerWidth, boxSizing: 'border-box' },
-        }}
-      >
+        }}>
         <Toolbar />
         <Box sx={{ overflow: 'auto' }}>
           <List>
