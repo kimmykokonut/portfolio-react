@@ -8,13 +8,13 @@ import Footer from './Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Box } from '@mui/material';
 
-const drawerWidth = 20;
+const drawerWidth = '175px';
 
 function App() {
   return (
     <Router>
       <NavBar />
-      <Box component="main" sx={{ flexGrow: 1, p: 2, marginLeft: drawerWidth, marginTop: 5 }}>
+      <Box component="main" sx={{ flexGrow: 1, p: 2, marginLeft: drawerWidth, marginTop: 5, marginRight: -4 }}>
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />
